@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60113490246087E300661E55 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011348F246087E300661E55 /* ViewController1.swift */; };
+		6011349424609C6700661E55 /* SteelersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011349324609C6700661E55 /* SteelersViewController.swift */; };
+		6011349824609DEA00661E55 /* PanthersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011349724609DEA00661E55 /* PanthersViewController.swift */; };
+		6011349A24609E0800661E55 /* PiratesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011349924609E0800661E55 /* PiratesViewController.swift */; };
+		6011349E2460A8E400661E55 /* PenguinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011349D2460A8E400661E55 /* PenguinsViewController.swift */; };
 		60795694245E335C0079FE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60795693245E335C0079FE35 /* AppDelegate.swift */; };
 		60795696245E335C0079FE35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60795695245E335C0079FE35 /* SceneDelegate.swift */; };
 		6079569B245E335C0079FE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60795699245E335C0079FE35 /* Main.storyboard */; };
@@ -36,7 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6011348F246087E300661E55 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		6011349324609C6700661E55 /* SteelersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteelersViewController.swift; sourceTree = "<group>"; };
+		6011349724609DEA00661E55 /* PanthersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanthersViewController.swift; sourceTree = "<group>"; };
+		6011349924609E0800661E55 /* PiratesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiratesViewController.swift; sourceTree = "<group>"; };
+		6011349D2460A8E400661E55 /* PenguinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenguinsViewController.swift; sourceTree = "<group>"; };
 		60795690245E335C0079FE35 /* Profio Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profio Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60795693245E335C0079FE35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60795695245E335C0079FE35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +88,7 @@
 		60795687245E335C0079FE35 = {
 			isa = PBXGroup;
 			children = (
+				6011349324609C6700661E55 /* SteelersViewController.swift */,
 				60795692245E335C0079FE35 /* Profio Final */,
 				607956A9245E335E0079FE35 /* Profio FinalTests */,
 				607956B4245E335E0079FE35 /* Profio FinalUITests */,
@@ -105,8 +112,10 @@
 			children = (
 				60795693245E335C0079FE35 /* AppDelegate.swift */,
 				60795695245E335C0079FE35 /* SceneDelegate.swift */,
+				6011349724609DEA00661E55 /* PanthersViewController.swift */,
+				6011349924609E0800661E55 /* PiratesViewController.swift */,
+				6011349D2460A8E400661E55 /* PenguinsViewController.swift */,
 				60795699245E335C0079FE35 /* Main.storyboard */,
-				6011348F246087E300661E55 /* ViewController1.swift */,
 				6079569C245E335E0079FE35 /* Assets.xcassets */,
 				6079569E245E335E0079FE35 /* LaunchScreen.storyboard */,
 				607956A1245E335E0079FE35 /* Info.plist */,
@@ -271,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60113490246087E300661E55 /* ViewController1.swift in Sources */,
 				60795694245E335C0079FE35 /* AppDelegate.swift in Sources */,
+				6011349E2460A8E400661E55 /* PenguinsViewController.swift in Sources */,
 				60795696245E335C0079FE35 /* SceneDelegate.swift in Sources */,
+				6011349424609C6700661E55 /* SteelersViewController.swift in Sources */,
+				6011349824609DEA00661E55 /* PanthersViewController.swift in Sources */,
+				6011349A24609E0800661E55 /* PiratesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
