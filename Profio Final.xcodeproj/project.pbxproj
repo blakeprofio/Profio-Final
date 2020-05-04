@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60113490246087E300661E55 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011348F246087E300661E55 /* ViewController1.swift */; };
 		60795694245E335C0079FE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60795693245E335C0079FE35 /* AppDelegate.swift */; };
 		60795696245E335C0079FE35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60795695245E335C0079FE35 /* SceneDelegate.swift */; };
-		60795698245E335C0079FE35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60795697245E335C0079FE35 /* ViewController.swift */; };
 		6079569B245E335C0079FE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60795699245E335C0079FE35 /* Main.storyboard */; };
 		6079569D245E335E0079FE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6079569C245E335E0079FE35 /* Assets.xcassets */; };
 		607956A0245E335E0079FE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6079569E245E335E0079FE35 /* LaunchScreen.storyboard */; };
 		607956AB245E335E0079FE35 /* Profio_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607956AA245E335E0079FE35 /* Profio_FinalTests.swift */; };
 		607956B6245E335E0079FE35 /* Profio_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607956B5245E335E0079FE35 /* Profio_FinalUITests.swift */; };
+		607956C5245E47090079FE35 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607956C4245E47090079FE35 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6011348F246087E300661E55 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		60795690245E335C0079FE35 /* Profio Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profio Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60795693245E335C0079FE35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60795695245E335C0079FE35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		60795697245E335C0079FE35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6079569A245E335C0079FE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6079569C245E335E0079FE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6079569F245E335E0079FE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		607956B1245E335E0079FE35 /* Profio FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Profio FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607956B5245E335E0079FE35 /* Profio_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profio_FinalUITests.swift; sourceTree = "<group>"; };
 		607956B7245E335E0079FE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607956C4245E47090079FE35 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				607956C5245E47090079FE35 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				607956A9245E335E0079FE35 /* Profio FinalTests */,
 				607956B4245E335E0079FE35 /* Profio FinalUITests */,
 				60795691245E335C0079FE35 /* Products */,
+				607956C3245E47090079FE35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +105,8 @@
 			children = (
 				60795693245E335C0079FE35 /* AppDelegate.swift */,
 				60795695245E335C0079FE35 /* SceneDelegate.swift */,
-				60795697245E335C0079FE35 /* ViewController.swift */,
 				60795699245E335C0079FE35 /* Main.storyboard */,
+				6011348F246087E300661E55 /* ViewController1.swift */,
 				6079569C245E335E0079FE35 /* Assets.xcassets */,
 				6079569E245E335E0079FE35 /* LaunchScreen.storyboard */,
 				607956A1245E335E0079FE35 /* Info.plist */,
@@ -126,6 +130,14 @@
 				607956B7245E335E0079FE35 /* Info.plist */,
 			);
 			path = "Profio FinalUITests";
+			sourceTree = "<group>";
+		};
+		607956C3245E47090079FE35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				607956C4245E47090079FE35 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60795698245E335C0079FE35 /* ViewController.swift in Sources */,
+				60113490246087E300661E55 /* ViewController1.swift in Sources */,
 				60795694245E335C0079FE35 /* AppDelegate.swift in Sources */,
 				60795696245E335C0079FE35 /* SceneDelegate.swift in Sources */,
 			);
